@@ -12,13 +12,14 @@ This application generates random passwords using JavaScript
 
 ### This is a password generator for the javascript challenge
 
+
 Desktop screen:
 
-![Top-Page-Area](/assets/images/Landing Page.png)
+![Top-Page-Area](./assets/images/Landing Page.png "Top-Page-Area")
 
 Smaller devices screen:
 
-![Top-Page-Area](/assets/images/Small screen display.png)
+![Top-Page-Area](./assets/images/Small screen display.png "Top-Page-Area")
 
 <a name="web-address"></a>
 ## 2. How to Get There
@@ -33,12 +34,12 @@ https://hinnenk2.github.io/javascript-password-generator/
 
 ### Click Generate Password and Select your Criteria
 
-![nav-menu](/assets/images/Choose complexity.png)
-![nav-menu](/assets/images/Asks length.png)
+![nav-menu](./assets/images/Choose complexity.png "nav-menu")
+![nav-menu](./assets/images/Asks length.png "nav-menu")
 
 ### Follow the Prompted Instructions and Retrieve your New Password!
 
 <a name="endresult"></a>
 ## 4. End Result
 
-![nav-menu](/assets/images/Password Generation.png)
+![nav-menu](./assets/images/Password Generation.png "nav-menu")
