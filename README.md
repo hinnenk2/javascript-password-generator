@@ -15,11 +15,11 @@ This application generates random passwords using JavaScript
 
 Desktop screen:
 
-![Top-Page-Area](./assets/images/Landing Page.png "Top-Page-Area")
+![Top-Page-Area](./assets/images/landing-page.png "Top-Page-Area")
 
 Smaller devices screen:
 
-![Top-Page-Area](./assets/images/Small screen display.png "Top-Page-Area")
+![Top-Page-Area](./assets/images/small-screen-display.png "Top-Page-Area")
 
 <a name="web-address"></a>
 ## 2. How to Get There
@@ -34,12 +34,12 @@ https://hinnenk2.github.io/javascript-password-generator/
 
 ### Click Generate Password and Select your Criteria
 
-![nav-menu](./assets/images/Choose complexity.png "nav-menu")
-![nav-menu](./assets/images/Asks length.png "nav-menu")
+![nav-menu](./assets/images/choose-complexity.png "nav-menu")
+![nav-menu](./assets/images/asks-length.png "nav-menu")
 
 ### Follow the Prompted Instructions and Retrieve your New Password!
 
 <a name="endresult"></a>
 ## 4. End Result
 
-![nav-menu](./assets/images/Password Generation.png "nav-menu")
+![nav-menu](./assets/images/password-generation.png "nav-menu")
