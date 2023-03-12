@@ -4,7 +4,7 @@ var userInput = ""; // Generates the password based on user-input criteria
 var endPassword = ""; // Temporarily stores a random passoword.
 var displayPassword = ""; // Displays the finalized password on the html interface.
 
-// Object to use later for criteria and random generating values.
+// Object to use later for criteria and generating random values for the password.
 var passwordCriteria = {
   lowercase: {indexNumber: 0 , criteria: "abcdefghijklmnopqrstuvwxyz"
   },
@@ -138,8 +138,8 @@ var generatePassword = function() {
 
   function passLength () { // Asks the user's preferred pw length from 8-128 characters.
     
-    window.alert("What is the length of your password from 8-128 characters?");
-    var pLength = parseInt(window.prompt("Please enter your password length")); // The user's entry is converted to an integer to check valid input.
+    window.alert("What is the length of your password (8-128 characters)?");
+    var pLength = parseInt(window.prompt("Please enter your password's length")); // The user's entry is converted to an integer to check valid input.
     //console.log(pLength); //logs 8 when user inputs 8 as pLength.
     if (pLength < 8 || pLength > 128) {
       
@@ -150,7 +150,7 @@ var generatePassword = function() {
       window.alert("Please enter a valid number between 8-128")
       passLength();
     } else {
-      window.alert("You have entered a valid lenght of: " + pLength + "\n Password will now be generated");
+      window.alert("You have entered a valid length of: " + pLength + "\n Password will now be generated");
       return pLength; // Informs the user that they selected a valid pLength.
     }
   }
@@ -170,4 +170,4 @@ function writePassword() {
 // Retrieves references for the #generate element
 var generateBtn = document.querySelector("#generate"); //selects button from html to initiate code.
 // Adds event listener to generate button
-generateBtn.addEventListener("click", writePassword); //allows the Generate Password button to be clicked, thereby initiating the code.
+generateBtn.addEventListener("click", writePassword); //allows the Generate Password button to be clickable, thereby initiating the code.
