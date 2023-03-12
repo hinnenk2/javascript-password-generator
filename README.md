@@ -35,7 +35,7 @@ https://hinnenk2.github.io/javascript-password-generator/
 ### Click Generate Password and Select your Criteria
 
 ![nav-menu](./assets/images/choose-complexity.png "nav-menu")
-![nav-menu](./assets/images/asks-length.png "nav-menu")
+![nav-menu](./assets/images/chooses-length.png "nav-menu")
 
 ### Follow the Prompted Instructions and Retrieve your New Password!
 
